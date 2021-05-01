@@ -27,5 +27,11 @@ break
 *)
 ;;
 esac
+
+read input
+if [ $input = "q"  ]
+ then 
+  continue;
+ fi
 done
  
